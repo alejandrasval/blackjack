@@ -1,0 +1,37 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background-image: url("https://res.cloudinary.com/dtkdsolsz/image/upload/v1642129914/MM004928____POKER_027____1080p____A040_C044_0312SS_001_mbpwhe.jpg");
+  background-size: cover;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 4rem;
+  color: goldenrod;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-btn {
+  color: #fff;
+  width: 200px;
+  padding: 12px;
+  margin: 4px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: goldenrod;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
